@@ -7,69 +7,72 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <div class="container">
         <h1>Welcome to SauravX Bots</h1>
-        <p>Get your own WhatsApp bot today and automate your business.</p>
-        
+        <p>Get your own WhatsApp Bot today and automate your business!</p>
+
         <div class="buttons">
-            <a href="https://wa.me/7559347682?text=I'm%20interested%20in%20a%20WhatsApp%20Bot" class="btn">WhatsApp Bot</a>
-            <a href="https://wa.me/7559347682?text=I%20want%20to%20know%20the%20pricing%20details" class="btn">Pricing Info</a>
-            <a href="https://wa.me/7559347682?text=I%20need%20customer%20support" class="btn">Customer Support</a>
+            <a href="https://wa.me/917559347682?text=I%20want%20to%20inquire%20about%20WhatsApp%20Bots" class="btn">WhatsApp Bot Inquiry</a>
+            <a href="https://wa.me/917559347682?text=I%20want%20to%20purchase%20WhatsApp%20Bots" class="btn">Pricing & Purchase</a>
+            <a href="https://wa.me/917559347682?text=I%20need%20customer%20support" class="btn">Customer Support</a>
+        </div>
+
+        <div class="pricing">
+            <h2>Pricing Details</h2>
+            <p>💰 1 WhatsApp Bot for 3 months - ₹1500</p>
+            <p>💰 2 WhatsApp Bots for 3 months - ₹2400</p>
+        </div>
+
+        <div class="whatsapp-icon">
+            <a href="https://wa.me/917559347682">
+                <img src="whatsapp.png" alt="WhatsApp">
+            </a>
         </div>
     </div>
 
-    <!-- WhatsApp Floating Button -->
-    <a href="https://wa.me/7559347682" class="whatsapp-float" target="_blank">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
-    </a>
 </body>
 </html>
-/* Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 
 body {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+    background: url('background.jpg') no-repeat center center/cover;
     text-align: center;
-    background: url('https://source.unsplash.com/1600x900/?mountains,nature') no-repeat center center/cover;
     color: white;
 }
 
 .container {
-    padding: 100px 20px;
-    background: rgba(0, 0, 0, 0.5);
-    border-radius: 10px;
-    width: 80%;
-    margin: auto;
+    padding: 50px;
 }
 
 h1 {
     font-size: 36px;
-    font-weight: 600;
     margin-bottom: 10px;
-    animation: fadeIn 2s;
 }
 
 p {
     font-size: 18px;
     margin-bottom: 20px;
-    animation: fadeIn 3s;
 }
 
 .buttons {
     display: flex;
     justify-content: center;
-    gap: 15px;
+    gap: 20px;
+    margin-bottom: 30px;
 }
 
 .btn {
     text-decoration: none;
-    color: white;
     background: #25D366;
-    padding: 12px 24px;
-    font-size: 18px;
+    color: white;
+    padding: 15px 25px;
     border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
     transition: 0.3s;
 }
 
@@ -77,21 +80,21 @@ p {
     background: #128C7E;
 }
 
-/* WhatsApp Floating Button */
-.whatsapp-float {
+.pricing {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+    margin: auto;
+}
+
+.whatsapp-icon {
     position: fixed;
     bottom: 20px;
     right: 20px;
+}
+
+.whatsapp-icon img {
     width: 60px;
-}
-
-.whatsapp-float img {
-    width: 100%;
-    border-radius: 50%;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-}
-
-@keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
+    height: 60px;
 }
