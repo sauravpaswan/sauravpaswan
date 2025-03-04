@@ -4,7 +4,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SauravX Bots - Get Your Own WhatsApp Bot Today!</title>
-    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: url('background.jpg') no-repeat center center/cover;
+            text-align: center;
+            color: white;
+        }
+
+        .container {
+            padding: 50px;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            text-decoration: none;
+            background: #25D366;
+            color: white;
+            padding: 15px 25px;
+            border-radius: 5px;
+            font-size: 18px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #128C7E;
+        }
+
+        .pricing {
+            background: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+            width: 50%;
+            margin: auto;
+        }
+
+        .whatsapp-icon {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+        }
+
+        .whatsapp-icon img {
+            width: 60px;
+            height: 60px;
+        }
+    </style>
 </head>
 <body>
 
@@ -29,72 +98,6 @@
                 <img src="whatsapp.png" alt="WhatsApp">
             </a>
         </div>
-    </div>
 
 </body>
 </html>
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
-
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
-    background: url('background.jpg') no-repeat center center/cover;
-    text-align: center;
-    color: white;
-}
-
-.container {
-    padding: 50px;
-}
-
-h1 {
-    font-size: 36px;
-    margin-bottom: 10px;
-}
-
-p {
-    font-size: 18px;
-    margin-bottom: 20px;
-}
-
-.buttons {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-bottom: 30px;
-}
-
-.btn {
-    text-decoration: none;
-    background: #25D366;
-    color: white;
-    padding: 15px 25px;
-    border-radius: 5px;
-    font-size: 18px;
-    font-weight: bold;
-    transition: 0.3s;
-}
-
-.btn:hover {
-    background: #128C7E;
-}
-
-.pricing {
-    background: rgba(0, 0, 0, 0.5);
-    padding: 20px;
-    border-radius: 10px;
-    width: 50%;
-    margin: auto;
-}
-
-.whatsapp-icon {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-}
-
-.whatsapp-icon img {
-    width: 60px;
-    height: 60px;
-}
