@@ -3,90 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SauravX Bots</title>
+    <title>SauravX Bots - Get Your Own WhatsApp Bot Today!</title>
     <style>
-        /* Google Font */
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
-
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            font-family: 'Poppins', sans-serif;
+            font-family: Arial, sans-serif;
         }
 
         body {
-            background: linear-gradient(135deg, #667eea, #764ba2);
-            color: white;
+            background: url('https://source.unsplash.com/1600x900/?mountain') no-repeat center center/cover;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             text-align: center;
-            padding: 20px;
+            color: white;
+        }
+
+        .container {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 30px;
+            border-radius: 10px;
         }
 
         h1 {
-            margin-top: 50px;
-            font-size: 2.5em;
-        }
-
-        p {
-            font-size: 1.2em;
-            margin: 20px 0;
+            font-size: 28px;
+            margin-bottom: 20px;
+            animation: fadeIn 2s;
         }
 
         .btn {
-            display: inline-block;
-            padding: 12px 24px;
-            font-size: 1.2em;
+            display: block;
+            width: 100%;
+            margin: 10px 0;
+            padding: 15px;
             color: white;
-            background: #ff6b6b;
+            background: #28a745;
             border: none;
-            border-radius: 25px;
+            border-radius: 5px;
             text-decoration: none;
+            font-size: 18px;
             transition: 0.3s;
         }
 
         .btn:hover {
-            background: #ff4757;
-            transform: scale(1.1);
+            background: #218838;
         }
 
-        /* WhatsApp Floating Button */
-        .whatsapp-button {
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .whatsapp-logo {
             position: fixed;
             bottom: 20px;
             right: 20px;
-            background-color: #25D366;
-            color: white;
-            width: 60px;
-            height: 60px;
-            border-radius: 50%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
-            transition: 0.3s;
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
         }
-
-        .whatsapp-button:hover {
-            transform: scale(1.1);
-        }
-
-        .whatsapp-button img {
-            width: 35px;
-        }
-
     </style>
 </head>
 <body>
+    <div class="container">
+        <h1>Welcome to SauravX Bots!</h1>
+        <a href="https://wa.me/7559347682?text=I%20want%20a%20WhatsApp%20Bot" class="btn">Get WhatsApp Bot</a>
+        <a href="https://wa.me/7559347682?text=I%20want%20pricing%20details" class="btn">Pricing Details</a>
+        <a href="https://wa.me/7559347682?text=I%20need%20customer%20support" class="btn">Customer Support</a>
+    </div>
 
-    <h1>Welcome to SauravX Bots</h1>
-    <p>Get your customized WhatsApp bot and website now!</p>
-    
-    <a href="https://wa.me/917559347682" class="btn">Order Now</a>
-
-    <!-- WhatsApp Floating Button -->
-    <a href="https://wa.me/917559347682" class="whatsapp-button">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
-    </a>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" class="whatsapp-logo" onclick="window.location.href='https://wa.me/7559347682'">
 
 </body>
 </html>
